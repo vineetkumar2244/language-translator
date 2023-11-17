@@ -7,7 +7,7 @@ import py4j.GatewayServer;
 
 public class Translator {
 
-    private static final String API_KEY = "9aS69YyyqyRQoJxl3RK1TRFK0XRaR9DX";
+    private static final String API_KEY = "YOUR_API_KEY";
     private static final String API_URL = "https://api.apilayer.com/language_translation/translate";
 
     public String translateText(String originalText, String targetLanguage, String sourceLanguage) throws Exception {
